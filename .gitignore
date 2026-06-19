@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.py[cod]
+*.log
+.env
+databases/
+company_research_db/
+ashwin_profile_db/
+
