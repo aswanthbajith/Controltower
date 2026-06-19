@@ -1,0 +1,21 @@
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.0.156:8501
+  External URL: http://31.16.248.58:8501
+
+2026-06-19 18:07:42,474 INFO [src.database.sqlite_client] Tracker database initialized at C:\Users\ASWA\Music\Playlists\controltower\databases\tracker.db
+2026-06-19 18:07:42,477 INFO [src.ui.dashboard_data] Loaded 0 opportunity summaries for dashboard
+2026-06-19 18:07:49,691 ERROR [asyncio] Exception in callback _ProactorBasePipeTransport._call_connection_lost()
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost()>
+Traceback (most recent call last):
+  File "C:\Python314\Lib\asyncio\events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-06-19 18:07:50,280 INFO [src.database.sqlite_client] Tracker database initialized at C:\Users\ASWA\Music\Playlists\controltower\databases\tracker.db
+2026-06-19 18:07:50,281 INFO [src.ui.dashboard_data] Loaded 0 opportunity summaries for dashboard

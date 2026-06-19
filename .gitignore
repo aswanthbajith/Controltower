@@ -3,9 +3,13 @@ __pycache__/
 .pytest_cache/
 .ruff_cache/
 *.py[cod]
+*.egg-info/
 *.log
 .env
+.env.*
+!.env.example
 databases/
 company_research_db/
 ashwin_profile_db/
-
+exports/
+reports/
